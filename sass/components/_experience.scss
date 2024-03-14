@@ -1,0 +1,36 @@
+.experience {
+   background-color: #333;
+}
+.experience .it {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid red;
+}
+
+// .experience .it .support {
+//     width: 700px;
+// }
+.experience h1 {
+    color: tomato;
+    text-transform: uppercase;
+    // position: absolute;
+    margin-bottom: 25px;
+    margin-top: 45px;
+   
+}
+
+
+.experience h1::before {
+    content: "";
+    position: absolute;
+    // left: 50%;
+    
+    height: 2px;
+    background-color: #333;
+    bottom: -80px;
+    width: 140px;
+}
+.experience p {
+    color: #777;
+    line-height: 1.7;
+}

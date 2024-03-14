@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -53,5 +54,116 @@ body {
   text-transform: capitalize;
   color: black;
   text-decoration: none;
+}
+
+.profile h1 {
+  color: tomato;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+.profile h1::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #333;
+  bottom: -80px;
+  width: 140px;
+}
+
+.profile p {
+  color: #777;
+  line-height: 1.7;
+}
+
+.experience {
+  background-color: #333;
+}
+
+.experience .it {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 1px solid red;
+}
+
+.experience h1 {
+  color: tomato;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 45px;
+}
+
+.experience h1::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: #333;
+  bottom: -80px;
+  width: 140px;
+}
+
+.experience p {
+  color: #777;
+  line-height: 1.7;
+}
+
+.header {
+  background-image: url(./sass/base/images/غروب.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.header .context {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 150px;
+}
+
+.header .context .image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.header .text h1 {
+  text-transform: uppercase;
+  color: tomato;
+}
+
+.header .text p {
+  color: white;
+}
+
+.header .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .icons i {
+  color: white;
+  margin-right: 50px;
+  background-color: red;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 35px;
 }
 /*# sourceMappingURL=main.css.map */

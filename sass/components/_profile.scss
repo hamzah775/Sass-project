@@ -1,0 +1,25 @@
+
+
+.profile h1 {
+    color: tomato;
+    text-transform: uppercase;
+    // position: relative;
+    margin-bottom: 25px;
+    margin-top: 40px;
+   
+}
+
+.profile h1::before {
+    content: "";
+    position: absolute;
+    // left: 50%;
+    
+    height: 2px;
+    background-color: #333;
+    bottom: -80px;
+    width: 140px;
+}
+.profile p {
+    color: #777;
+    line-height: 1.7;
+}
