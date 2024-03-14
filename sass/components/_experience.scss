@@ -3,34 +3,36 @@
 }
 .experience .it {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    // flex-wrap: wrap;
     border-bottom: 1px solid red;
+    
 }
 
-// .experience .it .support {
-//     width: 700px;
-// }
+
 .experience h1 {
     color: tomato;
     text-transform: uppercase;
-    // position: absolute;
-    margin-bottom: 25px;
-    margin-top: 45px;
-   
+    position: relative;
+    // margin-bottom: 25px;
+    // margin-top: 45px;
+    padding-top: 45px;
 }
 
 
 .experience h1::before {
     content: "";
     position: absolute;
-    // left: 50%;
-    
+    bottom: -5px;
+    width: 208px;
     height: 2px;
-    background-color: #333;
-    bottom: -80px;
-    width: 140px;
+    background-color: #777;
 }
 .experience p {
     color: #777;
     line-height: 1.7;
 }
+
+// .experience .it .support {
+//     margin-right: 200px;
+// }

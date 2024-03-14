@@ -56,6 +56,11 @@ body {
   text-decoration: none;
 }
 
+.profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .profile h1 {
   color: tomato;
   text-transform: uppercase;
@@ -85,30 +90,204 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-bottom: 1px solid red;
 }
 
 .experience h1 {
   color: tomato;
   text-transform: uppercase;
-  margin-bottom: 25px;
-  margin-top: 45px;
+  position: relative;
+  padding-top: 45px;
 }
 
 .experience h1::before {
   content: "";
   position: absolute;
+  bottom: -5px;
+  width: 208px;
   height: 2px;
-  background-color: #333;
-  bottom: -80px;
-  width: 140px;
+  background-color: #777;
 }
 
 .experience p {
   color: #777;
   line-height: 1.7;
+}
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills h1 {
+  color: tomato;
+  padding-top: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.skills h1::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 109px;
+  height: 2px;
+  background-color: #777;
+}
+
+.skills .contexts span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  position: relative;
+  letter-spacing: 3px;
+  padding-left: 30px;
+}
+
+.skills .contexts span::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #981111;
+}
+
+.education {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #333;
+}
+
+.education h1 {
+  color: tomato;
+  padding-top: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.education h1::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 189px;
+  height: 2px;
+  background-color: #777;
+}
+
+.education .history {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.education .history .hist {
+  margin-right: 225px;
+  margin-top: 25px;
+}
+
+.education .history p {
+  color: #777;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.education .history p span {
+  color: black;
+}
+
+.technical-knowledge {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.technical-knowledge h1 {
+  color: tomato;
+  padding-top: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.technical-knowledge h1::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 400px;
+  height: 2px;
+  background-color: #777;
+}
+
+.technical-knowledge .contexts span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  position: relative;
+  letter-spacing: 3px;
+  padding-left: 30px;
+}
+
+.technical-knowledge .contexts span::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #981111;
+}
+
+.language {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #333;
+}
+
+.language h1 {
+  color: tomato;
+  padding-top: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.language h1::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 189px;
+  height: 2px;
+  background-color: #777;
+}
+
+.language .more span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 2;
+  text-transform: capitalize;
+  margin-left: 30px;
+  position: relative;
+}
+
+.language .more span::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  bottom: 12px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-left: -15px;
+  background-color: #d0de09;
 }
 
 .header {

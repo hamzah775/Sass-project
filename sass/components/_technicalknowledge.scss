@@ -1,0 +1,42 @@
+
+
+
+
+
+.technical-knowledge {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.technical-knowledge h1 {
+    color: tomato;
+    padding-top: 20px;
+    // padding-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+.technical-knowledge h1::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 400px;
+    height: 2px;
+    background-color: #777;
+}
+.technical-knowledge .contexts span {
+    display: flex;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    position: relative;
+    letter-spacing: 3px;
+    padding-left: 30px;
+}
+.technical-knowledge .contexts span::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #981111;
+}
