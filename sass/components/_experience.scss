@@ -1,15 +1,22 @@
 .experience {
    background-color: #333;
+//    display: flex;
+//    justify-content: space-between;
+//    flex-direction: column;
 }
 .experience .it {
     display: flex;
     justify-content: space-between;
-    // flex-wrap: wrap;
-    border-bottom: 1px solid red;
-    
+    // background-color: red;
 }
 
 
+.experience .container br {
+    color: rgb(0, 68, 255);
+    position: relative;
+    width: 500px;
+    height: 2px;
+}
 .experience h1 {
     color: tomato;
     text-transform: uppercase;
@@ -33,6 +40,3 @@
     line-height: 1.7;
 }
 
-// .experience .it .support {
-//     margin-right: 200px;
-// }

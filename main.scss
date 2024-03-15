@@ -7,6 +7,9 @@
 @import './sass/components/eduction';
 @import './sass/components/technicalknowledge';
 @import './sass/components/language';
+@import './sass/components/interstedIn';
+@import './sass/components/contactMe';
+@import './sass/components/footer';
 
 
 .header {
@@ -27,18 +30,18 @@
     height: 150px;
     border-radius: 50%;
 }
-// .header .context .text {
-//     // margin-left: 200px;
-//     // margin-top: 10px;
-// } 
+.header .text {
+    
+    align-items: center;
+}
 .header .text h1 {
     text-transform: uppercase;
-    // font-weight: bold;
     color: tomato;
+    margin-left: 60px;
 }
 .header .text p {
     color: white;
-    // margin-left: -70px;
+    // margin-left: 60px;
 }
 .header .icons {
     display: flex;

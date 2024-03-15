@@ -1,0 +1,17 @@
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.footer p {
+    color: white;
+    padding: 20px;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+.footer a {
+    color: aqua;
+}
